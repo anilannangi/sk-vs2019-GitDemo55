@@ -33,6 +33,8 @@ namespace sk_vs2019_GitDemo55
                 endpoints.MapGet("/", async context =>
                 {
                     await context.Response.WriteAsync("<h1>Hello World!</h1>");
+                    await context.Response.WriteAsync("Hello Anil");
+
                 });
             });
         }
